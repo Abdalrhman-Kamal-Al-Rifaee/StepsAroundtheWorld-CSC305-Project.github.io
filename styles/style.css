@@ -32,16 +32,10 @@ header {
     padding:50px 20px;
 }
 
-.Search-Bar{
-    list-style: none;
-    position: absolute;
-    right: 30px;
-    top: 72px;
-}
 .nav-content ul {
     list-style-type: none;
     position: absolute;
-    right: 210px; top: 50px;
+    right: 50px; top: 50px;
 }
 .nav-content ul li{
     display: inline;
@@ -61,13 +55,13 @@ header {
     border-radius: 20px;
 }
 
-.content-Travel , article{
+.content-Travel , .article-index{
     border-radius: 9px;
     background-color:  rgb(250, 235, 215, 0.842);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-article{
+.article-index{
     padding: 10px;
     position: absolute;
     right: 20px; top: 135px;
@@ -195,7 +189,7 @@ footer {
     margin-bottom: 80px;
 }
 
-.spots {
+.spots{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -311,9 +305,80 @@ form button {
 form button:hover {
     background-color: #555;
 }
+#form_part{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    margin-bottom: 100px;
+}
+.form_feedback{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#form_btn{
+    font-size: 40px;
+ width:max-content;
+ align-self: center;
+}
+
+.subscripion_cont{
+    background-color: aqua;
+    width: 80%;
+    margin-bottom: 10%;
+    height: 500px;
+    padding: 10px;
+}
+.UAEtrips,
+.ValuePlus,
+.premium {
+    width: 30%;
+    font-size: 20px;
+    padding: 10px;
+    background-color:#333;
+    margin-left: 20px;
+    border-radius: 15px;
+    color:#fff;
+   
+}
+.UAEtrips:hover,
+.ValuePlus:hover,
+.premium:hover{
+background-color: #5555556e;
+color:black;
+}
+.subscription {
+    top: 850px;
+    left: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+
+}
+.btn_contact{
+    width: max-content;
+    height: max-content;
+    background-color: aqua;
+    font-size: xx-large;
+}
+.btn_contact:hover{
+    background-color: green;
+    color: white;
+}
+.spots-contact{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
 
 /*css Quiz*/
-
 .quiz-content{
     background-color:  rgb(250, 235, 215, 0.842);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
