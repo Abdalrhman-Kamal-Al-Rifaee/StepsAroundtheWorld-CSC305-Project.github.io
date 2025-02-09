@@ -117,36 +117,6 @@ footer {
 }
 
 
-
-/* Flexbox layout for images */
-.image-gallery {
-    display: flex;
-    gap: 15px; /* Space between images */
-    margin: auto;
-    padding: 20px;
-}
-
-.image-container {
-    text-align: center;
-    width: 200px;
-}
-
-/* Image settings */
-.image-container img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-/* Text under image */
-.image-text {
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #333;
-}
-
-
 .Destinations-content-1{
     position: absolute;
     top: 350px;
