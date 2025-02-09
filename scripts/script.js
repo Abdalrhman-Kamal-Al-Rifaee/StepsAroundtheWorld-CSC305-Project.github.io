@@ -8,7 +8,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     if (name && email && message) {
         alert('Thank you for contacting us!');
-        // You can add code here to send the form data to a server
     } else {
         alert('Please fill out all fields.');
     }
