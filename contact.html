@@ -6,6 +6,7 @@
         <title>Contact - Steps Around the World</title>
         <link rel="stylesheet" href="styles/style.css">
         <link rel="icon" href="images\travel.png">
+
     </head>
     <body>
         <header>
@@ -23,23 +24,72 @@
         </header>
         
 
-        <main>
-            <section>
-                <h2>Get in Touch</h2>
-                <form id="contactForm">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+         <main id="form_part">
+        <section class="form_feedback">
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
 
-                    <button type="submit">Submit</button>
-                </form>
-            </section>
-        </main>
+                <button id="form_btn"  type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <article class="subscription">
+    <section class="spots-contact">
+        <div class="UAEtrips">
+            <p>
+                <h2>UAE Trips</h2>
+                <h3>30AED</h3>
+                <h4>Basic</h4>
+                <input type="button" name="" class="btn_contact" value="Select Offer">
+                <ul>
+                    <li>Included features</li>
+                    <li>some extra features</li>
+                    <li>tips & recommendations</li>
+                    
+                </ul>
+            </p>
+        </div>
+        <div class="ValuePlus">
+            <p>
+                <h2>Value Plus</h2>
+                <h3>100AED</h3>
+                <h4>Discount offer</h4>
+                <input type="button" name="" class="btn_contact" value="Select Offer">
+                <ul>
+                    <li>Included features</li>
+                    <li>some extra features</li>
+                    <li>tips & recommendations</li>
+                    <li>Online call guidance</li>
+                    
+                </ul>
+            </p>
+        </div>
+        <div class="premium">
+                <p>
+                    <h2>Premium</h2>
+                    <h3>300AED</h3>
+                    <h4>Recommended</h4>
+                    <input type="button" name="" class="btn_contact" value="Select Offer">
+                    <ul >
+                        <li>Included features</li>
+                        <li>some extra features</li>
+                        <li>tips & recommendations</li>
+                        <li>Online call guidance</li>
+                        <li>Physical guidance</li>
+                        <li>offering free news letter</li>
+                    </ul>
+                </p>
+        </div>
+    </section>
+    </article>
 
         <footer>
             <p>&copy; 2025 Steps Around the World. All rights reserved.</p>
